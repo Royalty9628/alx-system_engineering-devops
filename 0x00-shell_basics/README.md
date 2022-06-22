@@ -16,3 +16,4 @@ File : 13-symbolic_link - script that Create a symbolic link.
 File : 14-copy_html - script that Create a script that copies all the HTML files from the current working directory.
 File : 100-lets_move - script that Create a script that moves all files beginning with an uppercase letter to the directory.
 File : 101-clean_emacs - script that Create a script that deletes all files in the current working directory that end with the character.
+File : 102-tree - script that create creates the directories
