@@ -8,3 +8,4 @@ File : 5-listfilesdigitonly - script that Display current directory contentsi.
 File : 6-firstdirectory - script that Create a script that creates a directory named my_first_directory in the /tmp/ directory.
 File : 7-movethatfile -script that Move the file.
 File : 8-firstdelete - script that Delete the file betty.
+File : 9-firstdirdeletion - script that Delete the directory my_first_directory.
