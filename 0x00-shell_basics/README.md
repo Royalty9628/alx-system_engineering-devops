@@ -14,3 +14,4 @@ File : 11-lists - script that that lists all files.
 File : 12-file_type - script that prints the type of the file named.
 File : 13-symbolic_link - script that Create a symbolic link.
 File : 14-copy_html - script that Create a script that copies all the HTML files from the current working directory.
+File : 100-lets_move - script that Create a script that moves all files beginning with an uppercase letter to the directory.
