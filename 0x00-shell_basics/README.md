@@ -11,3 +11,4 @@ File : 8-firstdelete - script that Delete the file betty.
 File : 9-firstdirdeletion - script that Delete the directory my_first_directory.
 File : 10-back - script that changes the working directory to the previous one.
 File : 11-lists - script that that lists all files.
+File : 12-file_type - script that prints the type of the file named.
