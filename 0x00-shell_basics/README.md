@@ -6,3 +6,4 @@ File : 3-listfiles - script that Display current directory contents in a long fo
 File : 4-listmorefiles script that Display current directory contents, including hidden files.
 File : 5-listfilesdigitonly - script that Display current directory contentsi.
 File : 6-firstdirectory - script that Create a script that creates a directory named my_first_directory in the /tmp/ directory.
+File : 7-movethatfile -script that Move the file
