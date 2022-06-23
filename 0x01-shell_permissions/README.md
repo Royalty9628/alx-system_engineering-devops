@@ -15,4 +15,5 @@ File: 12-directory_permissions - script that creates a directory called my_dir w
 File: 13-change_group - script that changes the group owner to school for the file hello.
 File: 100-change_owner_and_group - script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 File: 101-symbolic_link_permissions - script that changes the owner and the group owner
-File: 102-if_only - script that changes the owner of the file hello to betty only if it is owned by the user guillaume. 
+File: 102-if_only - script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
+File: 103-Star_Wars - script that will play the StarWars IV episode in the terminal. 
