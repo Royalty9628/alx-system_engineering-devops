@@ -9,3 +9,4 @@ File: 6-third_line - script that displays the third line of the file iacta.
 File: 7-file - script that creates a file
 File: 8-cwd_state - script that writes into the file
 File: 9-duplicate_last_line - script that duplicates the last line of the file
+File: 10-no_more_js - script that deletes all the regular files
