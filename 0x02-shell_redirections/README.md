@@ -10,3 +10,4 @@ File: 7-file - script that creates a file
 File: 8-cwd_state - script that writes into the file
 File: 9-duplicate_last_line - script that duplicates the last line of the file
 File: 10-no_more_js - script that deletes all the regular files
+File: 11-directories - script that counts the number of directories and sub-directories in the current directory
