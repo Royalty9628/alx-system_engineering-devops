@@ -8,3 +8,4 @@ File: 5-firstlines - script that Display the first 10 lines of /etc/passwd
 File: 6-third_line - script that displays the third line of the file iacta.
 File: 7-file - script that creates a file
 File: 8-cwd_state - script that writes into the file
+File: 9-duplicate_last_line - script that duplicates the last line of the file
