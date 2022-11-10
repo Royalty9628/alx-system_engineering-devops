@@ -5,6 +5,6 @@ y = 1
 
 while [ $y -le 10 ]
 do
-echo "Best School"
-((y++))
+    echo "Best School"
+    ((y++))
 done
