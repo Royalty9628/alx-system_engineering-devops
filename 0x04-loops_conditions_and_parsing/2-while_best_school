@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
 #Script that displays Best School 10 times using the while loop
-y = 0; while [ $y -le 9 ]; do echo "Best School"; ((y++)); done
+y = 0
+while [ $y -lt 10 ]
+do
+	echo "Best School"
+	let y = y + 1
+done
