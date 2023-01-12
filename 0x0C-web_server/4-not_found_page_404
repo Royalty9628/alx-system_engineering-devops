@@ -1,14 +1,10 @@
 #!/usr/bin/env bash
 # Install and setup redirection with nginX
 
-sudo apt-get update
-sudo apt-get install -y nginx
+apt-get -y update
+apt-get -y install nginx
 
 echo "Hello World" > | sudo tee /var/www/html/index.html
-new_string="listen 80 default_server;\n\trewrite ^/redirect_me https:\/\/github.com\/Royalty9628 permanent;"
-sudo sed -i "s/listen 80 default_server;/$new_string/" /etc/nginx/sites-available/default
-echo "Ceci n'est pas une page\n" | sudo tee /var/www/html/404.html
-new_string="listen 80 default_server;\n\terror_page 404 \/404.html;\n\tlocation = \/404.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
-sudo sed -i "s/listen 80 default_server;/$new_string/" /etc/nginx/sites-available/default
-
-sudo service nginx restart
+echo "Ceci n'est pas une page" > /usr/share/nginx/html/custom_404.html
+sed -i "s/server_name _;/server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/Royalty9628 permanent;\n\n\terror_page 404 \/custom_404.html;\n\tlocation = \/custom_404.html {\n\t\troot \/usr\/share\/nginx\/html;\n\t\tinternal;\n\t}/" /etc/nginx/sites-available/default
+service nginx start
